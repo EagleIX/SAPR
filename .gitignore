@@ -1,0 +1,10 @@
+# Служебные файлы Quartus II -- в репозиторий не добавляются
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+*.qws
+*.bak
+*.vcd
+sim

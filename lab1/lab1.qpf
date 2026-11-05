@@ -1,0 +1,6 @@
+# Quartus II 13.0sp1 Web Edition -- проект ЛР №1, вариант 15
+QUARTUS_VERSION = "13.0"
+DATE = "14:00:00  November 05, 2026"
+
+# Revisions
+PROJECT_REVISION = "lab1"
