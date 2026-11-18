@@ -1,0 +1,8 @@
+# служебные файлы ModelSim / Icarus Verilog -- в репозиторий не добавляются
+work/
+transcript
+*.wlf
+*.vstf
+*.vcd
+apb_sim
+.vscode/
