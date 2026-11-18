@@ -10,6 +10,12 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
 
+# Неиспользуемые выводы ПЛИС -- входы с третьим состоянием.
+# По умолчанию Quartus выводит на них "землю", а на плате DE1 к ним подключены
+# другие кнопки, переключатели и микросхемы -- так их выходы замыкались бы на землю.
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+
 # Файлы проекта
 set_global_assignment -name BDF_FILE lab1.bdf
 set_global_assignment -name VERILOG_FILE schetchik.v
