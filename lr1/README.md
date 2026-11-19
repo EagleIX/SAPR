@@ -48,3 +48,11 @@ EP2C20F484C7 (Cyclone II), плата DE1 (вместо DE2-115 по согла�
 
 Моделирование без Quartus:
 `iverilog -o sim tb_lab1.v lab1_top.v schetchik.v rspsignals.v && vvp sim`
+
+## Материалы для сдачи
+
+[Отчёт по ЛР1 с фотографиями платы](%D0%9E%D1%80%D0%BB%D0%BE%D0%B2_%D0%94%D0%92_%D0%9C3%D0%9E_410_2023_%D0%A1%D0%90%D0%9F%D0%A0_%D0%9B%D0%A0_1.docx)
+
+[Временные ограничения](lab1/lab1.sdc) · [Отчёт о ресурсах](lab1/reports/lab1_area.fit.rpt) · [Временной анализ](lab1/reports/lab1_timing.sta.rpt) · [Прошивка DE1](lab1/firmware/lab1.sof)
+
+Историю ЛР1 до переноса в общую папку можно посмотреть командой `git log --graph --oneline f77891d`. Она показывает обе ветки, разрешение конфликта и коммиты с результатами Quartus.
