@@ -6,6 +6,28 @@
 - **Группа:** М3О-410Б-23
 - **Вариант:** 15
 
+## История ЛР1
+
+Первые 11 коммитов описывают выполнение работы. Затем проект перенесён в папку `lr1` и дополнен отчётом.
+
+| № | Коммит | Изменение |
+|---:|---|---|
+| 1 | [13de698](https://github.com/EagleIX/SAPR/commit/13de698257985600ffe30a214d6ef5ee645b137d) | Начальный коммит: README и программа seq.py |
+| 2 | [d988f4e](https://github.com/EagleIX/SAPR/commit/d988f4e4cb1b6b1a95bd363c9e0ad4f060b85196) | feature: функции возбуждения счётчика в seq.py, описание в README |
+| 3 | [b7740e1](https://github.com/EagleIX/SAPR/commit/b7740e1eade27a423955060e544128c306ab83bc) | README: добавлен раздел о требованиях |
+| 4 | [10a6e25](https://github.com/EagleIX/SAPR/commit/10a6e259ff0bcb9b50ce02b8f7a10522f940ae9d) | Слияние main в feature/excitation: разрешён конфликт в README.md |
+| 5 | [080472f](https://github.com/EagleIX/SAPR/commit/080472fe721cbec309abe62f5315e30aaece7a75) | Слияние feature/excitation в main |
+| 6 | [f1c840d](https://github.com/EagleIX/SAPR/commit/f1c840db367d2d7163cb7781f7b2d8e25efaa059) | ЛР1: исходные коды (Verilog, схема bdf, тестбенч, проект Quartus) |
+| 7 | [97c8edd](https://github.com/EagleIX/SAPR/commit/97c8edde54fcea72dcdca8cc5b8b43bb73575af2) | ЛР1: файл временных ограничений lab1.sdc |
+| 8 | [c6f5379](https://github.com/EagleIX/SAPR/commit/c6f53798f530ede91c73cd3f107ea78d36dfe768) | ЛР1: неиспользуемые выводы ПЛИС -- входы с третьим состоянием (защита платы DE1) |
+| 9 | [9fd076f](https://github.com/EagleIX/SAPR/commit/9fd076fd62039bf5fd645025136c46c181f39534) | ЛР1: сохранить итоговую схему и настройки моделирования |
+| 10 | [d68584a](https://github.com/EagleIX/SAPR/commit/d68584a2ecea4ebdde5f8e9119ffd8384f6d675b) | Отчёты Quartus: площадь (fit) и временные характеристики (sta) |
+| 11 | [f77891d](https://github.com/EagleIX/SAPR/commit/f77891df7e7d9c8b33cd93d7a7147d40b71cf8bd) | Файл прошивки lab1.sof для EP2C20F484C7 (DE1) |
+| 12 | [489e08d](https://github.com/EagleIX/SAPR/commit/489e08d4996df4f025625502fc3b0dbab567d845) | Перенести первую лабораторную в lr1 |
+| 13 | [db7688a](https://github.com/EagleIX/SAPR/commit/db7688a4e4d9c4cf0671a733ee49d4bc50fd6c68) | ЛР1: оформить материалы для сдачи и добавить отчёт с фотографиями |
+
+[Граф истории до переноса в общий репозиторий](https://github.com/EagleIX/SAPR/commits/f77891df7e7d9c8b33cd93d7a7147d40b71cf8bd/).
+
 ## Программа seq.py
 
 `seq.py` — модель распределителя сигналов варианта 15 на Python.
